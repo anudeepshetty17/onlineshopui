@@ -47,6 +47,7 @@ export class ProductAddComponent implements OnInit {
         }
       );
     }
+    
     this.productService.getAllCategories().subscribe(
       data => {
         this.categories = data;
