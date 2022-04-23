@@ -56,8 +56,7 @@ export class ProductService {
   * @param id
   */
   getAllCategories(): Observable<Category[]> {
-
-    return this.http.get<Category[]>('/api/categories/');
+    return this.http.get<Category[]>(`${this.apiUrl}/api/categories/`);
 
   }
    /**
