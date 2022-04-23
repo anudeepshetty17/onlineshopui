@@ -1,6 +1,6 @@
 {
     "/api/*": {
-        "target": "https://kaustubhenterprises.herokuapp.com",
+        "target": "http://localhost:8080",
         "secure": true,
         "logLevel": "debug"
     }
