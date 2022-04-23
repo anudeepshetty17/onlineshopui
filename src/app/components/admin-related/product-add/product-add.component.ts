@@ -42,6 +42,7 @@ export class ProductAddComponent implements OnInit {
         data => {
           this.product = data;
         }, error => {
+	 	  alert("Error Occurred Init");
           alert(error.error);
         }
       );
@@ -50,6 +51,7 @@ export class ProductAddComponent implements OnInit {
       data => {
         this.categories = data;
       }, error => {
+	    alert("Error Occurred in Categories");
         alert(error.error);
       }
     );
