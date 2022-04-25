@@ -18,7 +18,7 @@ import {DialogElementsExampleDialog} from '../../user-related/signup/signup.comp
 export class CategoryRosterComponent implements OnInit, AfterViewInit {
 
   dataSource = new MatTableDataSource();
-  displayedColumns: string[] = ['name', 'categoryType', 'createTime', 'updateTime', 'action'];
+  displayedColumns: string[] = ['name','categoryType','productsCount', 'createTime', 'updateTime', 'action'];
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;

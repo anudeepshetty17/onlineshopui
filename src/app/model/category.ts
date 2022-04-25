@@ -4,4 +4,5 @@ export class Category {
   categoryType: number;
   createTime: Date;
   updateTime: Date;
+  productsCount: number;
 }
